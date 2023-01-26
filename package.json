@@ -1,7 +1,7 @@
 {
-  "name": "typescript-library-skeleton",
+  "name": "object-mother-example",
   "version": "1.0.0",
-  "description": "Skeleton for new typescript libraries",
+  "description": "Example of how we can use object mothers to improve testing strategy",
   "main": "src/index.js",
   "scripts": {
     "test": "npm run test:unit",
@@ -15,12 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertHernandez/typescript-library-skeleton.git"
+    "url": "git+https://github.com/AlbertHernandez/object-mother-example.git"
   },
   "keywords": [
+    "javascript",
     "typescript",
-    "library",
-    "skeleton"
+    "object mother",
+    "testing"
   ],
   "author": "alberthernandezdev@gmail.com",
   "license": "MIT",
@@ -29,9 +30,9 @@
     "npm": ">=9.3.0"
   },
   "bugs": {
-    "url": "https://github.com/AlbertHernandez/typescript-library-skeleton/issues"
+    "url": "https://github.com/AlbertHernandez/object-mother-example/issues"
   },
-  "homepage": "https://github.com/AlbertHernandez/typescript-library-skeleton#readme",
+  "homepage": "https://github.com/AlbertHernandez/object-mother-example#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",

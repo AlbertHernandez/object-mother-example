@@ -1,21 +1,18 @@
-<h1 align="center">Typescript Library Skeleton</h1>
+<h1 align="center">Object Mother Example</h1>
 
 <p align="center">
-  Skeleton for new typescript libraries
+  Example of how we can use object mothers to improve testing strategy
 </p>
 
 <p align="center">
-    <a href="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
+    <a href="https://github.com/AlbertHernandez/object-mother-example/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/object-mother-example/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
 </p>
 
 ## Table of Contents
 
-* [Preparing environment to contribute](#preparing-environment)
-* [Playground](#playground)
-* [Building](#building)
-* [Testing](#testing)
-* [Linting](#linting)
-* [Contributing](#contributing)
+- [Building](#building)
+- [Testing](#testing)
+- [Linting](#linting)
 
 ## Preparing environment to contribute
 
@@ -26,14 +23,6 @@ nvm install 18.0.0
 nvm use
 npm install npm@8.3.0 -g
 npm install
-```
-
-## Playground
-
-This library offers a playground where we can play with the functions that we are developing
-
-```bash
-npm run playground
 ```
 
 ## Building
@@ -63,7 +52,3 @@ Fix lint issues automatically
 ```bash
 npm run lint:fix
 ```
-
-## Contributing
-
-Contributions welcome! See the [Contributing Guide](https://github.com/AlbertHernandez/typescript-library-skeleton/blob/main/CONTRIBUTING.md).
