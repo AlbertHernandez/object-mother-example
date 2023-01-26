@@ -1,5 +1,5 @@
 import { DiscountCalculator } from "../src";
-import { User } from "../src/user";
+import { UserMother } from "./user-mother";
 
 describe("DiscountCalculator", () => {
   let discountCalculator: DiscountCalculator;
@@ -9,17 +9,17 @@ describe("DiscountCalculator", () => {
   });
 
   it("when the user is gold level should return 10", () => {
-    const user = new User("1", "albert", 100);
+    const user = UserMother.create({ totalItemsPurchased: 100 });
     expect(discountCalculator.getDiscount(user)).toBe(10);
   });
 
   it("when the user is silver level should return 5", () => {
-    const user = new User("1", "albert", 85);
+    const user = UserMother.create({ totalItemsPurchased: 85 });
     expect(discountCalculator.getDiscount(user)).toBe(5);
   });
 
   it("when the user is not silver or gold should return 0", () => {
-    const user = new User("1", "albert", 2);
+    const user = UserMother.create({ totalItemsPurchased: 0 });
     expect(discountCalculator.getDiscount(user)).toBe(0);
   });
 });
